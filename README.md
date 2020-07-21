@@ -1,7 +1,7 @@
 # David Website >:)
 Whaddup!!
 
-# [Brand Coolness Using Spotify and Song Lyrics](https://github.com/sourwurm/sourwurm.github.io/tree/master/Brand-Coolness-with-Spotify-master)
+# [Brand Coolness Using Spotify and Song Lyrics](https://github.com/sourwurm/sourwurm.github.io/blob/master/Brand-Coolness-with-Spotify-master/README.md)
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. In order to evaluate myself, I have chosen to treat myself as a brand, using my spotify music data as performance metrics to be evaluated by a set criteria. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
 
 # [Health Inspection Score Inflation](https://github.com/sourwurm/sourwurm.github.io/blob/master/individual_sp20-master/final_project/FinalProject_sourwurm.ipynb)
