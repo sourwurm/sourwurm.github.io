@@ -7,7 +7,7 @@ Here I collect data and identify metrics that can be used to identify "coolness"
 # [Dubai's Public Transit Network](https://github.com/sourwurm/sourwurm.github.io/tree/master/Dubai-Public-Transit-Network-master)
 In this notebook I analyze Dubai's vulnerability to both direct and indirect damages resulting from climate change. Most notably is network complexity, which can lead to convoluted bus routes, increased wait times, and increased damage due to high use. I identify several Dubai bus stations that are at high risk of failure due to network complexity, as they carry a high proportion of Dubai RTA's weight. I suggest that Dubai RTA update the infrastructure at these stations, as well as distribute the number of routes that stop at these stations to alleviate load and thus complexity. Such modifications will lead to a climate resilient model of public transportation. 
 
-# [Content_Based_Recommender](https://github.com/sourwurm/sourwurm.github.io/tree/master/Content_Based_Recommender-master)
+# [Content Based Recommender](https://github.com/sourwurm/sourwurm.github.io/tree/master/Content_Based_Recommender-master)
 In my free time, I like to watch a bit of anime, but with so many shows to choose from it can be hard to pick something to watch. Here, I use a content-based approach towards building an anime recommender. Relevant metrics included a long list of genres, member ratings, and episode length. Once the model was built, I found that my model performed very close to that of the original database that the data was obtained from, despite not having access to user-specific data. 
 
 # [Health Inspection Score Inflation](https://github.com/sourwurm/sourwurm.github.io/blob/master/individual_sp20-master/final_project/FinalProject_sourwurm.ipynb)
