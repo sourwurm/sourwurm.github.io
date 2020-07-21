@@ -1,0 +1,2 @@
+# Content_Based_Recommender
+In this project I analyze anime data based on a couple metrics such as rating, genre and type. I then visualize anime based on differences in genre, and measure significance of variance across rating means and total episode counts. Lastly, I end with a content-based recommender that takes into account an anime's genres, episode counts, rating, and the number of members that left a review. The model works to compare these features through cosine similarity. 
