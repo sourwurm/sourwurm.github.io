@@ -1,31 +1,14 @@
 # David Website >:)
 Whaddup!!
 
-# [Brand-Coolness-with-Spotify](https://github.com/sourwurm/sourwurm.github.io/tree/master/Brand-Coolness-with-Spotify-master)
-Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data "Brand Coolness" has been conceptualized many different ways. In order to evaluate myself, I have chosen to evaluate myself as a brand, using my spotify music data as metrics to be evaluated by a set criteria. In an article published by Warren (2019), several characteristics were identified to determine brand coolness.
+# [Brand Coolness Using Spotify and Song Lyrics](https://github.com/sourwurm/sourwurm.github.io/tree/master/Brand-Coolness-with-Spotify-master)
+Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data "Brand Coolness" has been conceptualized many different ways. In order to evaluate myself, I have chosen to evaluate myself as a brand, using my spotify music data as metrics to be evaluated by a set criteria.  I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined.
 
-Extraordinary/Useful: A positive quality that sets a brand apart from its competitors/offering superior functional value
-High Status: Associated with social class, prestige, sophistication, and esteem
-Aesthetically Appealing: Having an attractive and visually pleasing appearance
-Rebellious: A tendency to oppose, fight, subvert, or combat conventions and social norms
-Original: A tendency to be different, creative, and to do things that have not been done before
-Authentic: Behaving in a way that is consistent with or true to its perceived essence or roots
-Subcultural: Associated with an autonomous group of people who are perceived to operate independent from and outside of mainstream society
-Popular: Fashionable, trendy, and liked by most people
-Iconic: Widely recognized as a cultural symbol
-Energetic: Possessing strong enthusiasm, energy, and vigor
-Through the Spotify API I was able to identify metrics that could be predictive of these factors, and thus help me determine how cool my theoretical brand is.
-
-Through the work in this project, I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. Results documented in The Verdict
-
-# [Dubai-Public-Transit-Network](https://github.com/sourwurm/sourwurm.github.io/tree/master/Dubai-Public-Transit-Network-master)
-In this notebook I analyze Dubai's vulnerability to both direct and indirect damages resulting from climate change. I exemplify temperature and atmospheric pressure findings using a random forest regression model. Most importantly, my analysis of Dubai's public transit network complexity identifies key areas of improvement along the bus system. 
+# [Dubai's Public Transit Network](https://github.com/sourwurm/sourwurm.github.io/tree/master/Dubai-Public-Transit-Network-master)
+In this notebook I analyze Dubai's vulnerability to both direct and indirect damages resulting from climate change. Most notably is network complexity, which can lead to convoluted bus routes, increased wait times, and increased damage due to high use. I identify several Dubai bus stations that are at high risk of failure due to network complexity, as they carry a high proportion of Dubai RTA's weight. I suggest that Dubai RTA update the infrastructure at these stations, as well as distribute the number of routes that stop at these stations to alleviate load and thus complexity. Such modifications will lead to a climate resilient model of public transportation. 
 
 # [Content_Based_Recommender](https://github.com/sourwurm/sourwurm.github.io/tree/master/Content_Based_Recommender-master)
-In this project I analyze anime data based on a couple metrics such as rating, genre and type. I then visualize anime based on differences in genre, and measure significance of variance across rating means and total episode counts. Lastly, I end with a content-based recommender that takes into account an anime's genres, episode counts, rating, and the number of members that left a review. The model works to compare these features through cosine similarity.
+In my free time, I like to watch a bit of anime, but with so many shows to choose from it can be hard to pick something to watch. Here, I use a content-based approach towards building an anime recommender. Relevant metrics included a long list of genres, member ratings, and episode length. Once the model was built, I found that my model performed very close to that of the original database that the data was obtained from, despite not having access to user-specific data. 
 
 # [Health Inspection Score Inflation](https://github.com/sourwurm/sourwurm.github.io/blob/master/individual_sp20-master/final_project/FinalProject_sourwurm.ipynb)
-
-In this notebook, I investigate the Wake County health department's health inspections. Through visualization and exploratory analysis, I showcase that health inspection scores are likely being subjected to inflation. This inflation can stem from several sources, but I identify that inspectors themselves may be directly responsible for this phenomenon. Additionally, I uncover that health violations that are most often corrected during the inspection, are also the most likely to be consistently repeated.
-
-This signifies a lack of objectivity in grading criteria, and perhaps a low effectiveness in health inspections. Future inspection guidelines should work to preserve integrity, and emphasize a non-arbitrary grading system.
+Going to a restaurant shouldn't result in getting you sick. In examining the Wake County health department's health inspections, I found that as critical health violations increased..... so did health inspection ratings. Not only that, but the common violations are ALSO the ones most often repeated. Violations such as improper food handling, unclean surfaces, and unsafe heating/cooling are all happening on a consistent basis. By looking at trends within the inspectors theselves, I found that some individuals are more likely than others to inflate scores, but this trend is present regardless of experience level. I present Wake County with suggestions to increase objectivity and integrity in ratings in order to provide accurate ratings to underperforming restaurants.
