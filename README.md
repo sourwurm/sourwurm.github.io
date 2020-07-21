@@ -1,5 +1,5 @@
-# sourwurm.github.io
-test
+# David Website >:)
+Whaddup!!
 
 # [Brand-Coolness-with-Spotify](https://github.com/sourwurm/sourwurm.github.io/tree/master/Brand-Coolness-with-Spotify-master)
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data "Brand Coolness" has been conceptualized many different ways. In order to evaluate myself, I have chosen to evaluate myself as a brand, using my spotify music data as metrics to be evaluated by a set criteria. In an article published by Warren (2019), several characteristics were identified to determine brand coolness.
