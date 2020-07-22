@@ -44,7 +44,7 @@ All of these were massively popular songs! This seems to be just a product of th
 
 ![](/images/bc-rel_mode.png)
 
-On top of this, it seems like my mode release data for low-popularity tracks is 2 years older than the top tracks on spotify. So that was straight-forward, but with these findings, it seems like my brand is not popular. But low popularity could be indicative of other qualities, such as being part of a subculture, or even originality (other measures of brand coolness).
+On top of this, it seems like my mode release data for low-popularity tracks is 2 years older than the top tracks on Spotify. So that was straight-forward, but with these findings, it seems like my brand is not popular. But low popularity could be indicative of other qualities, such as being part of a subculture, or even originality (other measures of brand coolness).
 
 #### Subcultural
 Proving this one will require a bit more, so to get a rough idea of differences between several features at once, I chose to plot everything on a radar chart using the means of each audio feature.
