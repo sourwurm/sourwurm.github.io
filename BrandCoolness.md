@@ -26,7 +26,9 @@ Now, I could get started on answering the question: how cool is my brand?
 
 #### Popular
 Warren (2019) identified popularity as being trendy and liked by most people. To measure this, I looked at the data within the popularity and release data columns. Music that is popular contains a float value closer to 1, where as release date is simply a date. These features will help measure if my music is trendy, and generally well-liked by others as well. Visualization showed that the difference in popularity was clear.
+
 ![](/images/bc-pop_dist.png)
+
 My Tracks peak at the 0 popularity mark which explains why I have trouble finding people who listen to the same music as me! On the bright side, My Tracks seem to cover a good spread of popularity ranges, having decent representation all the way up to the 60 mark on the popularity axis.
 
 Of course it should be expected that the Spotify Top 100 should be comprised of songs with high popularity. Interestingly enough, we can observe a bimodal distribution for spotifys top track popularity through nodes peaking at both high and low popularity. This is because Spotify calculates popularity based off current spotify listening activity. Meaning, tracks may have had a high popularity score in their heyday, but have since fallen off. This exemplified by looking at exactly which popular songs fall under this category.
@@ -58,7 +60,9 @@ Since I'd like to include as many features as possible, it would benefit me to u
 ![](bc-exp_var.png)
 
 Generally speaking, 0.8 explained variance is a good marker to shoot for. Meaning I would choose six Principle Components, but after some tinkering I found that not much information was being stored within the last two PC's. For that reason, I will only be using four PC's, which cover nearly 65% of explained variance within the data. To get a better idea of what's being accounted for, we can load at the loadings for each component.
+
 ![](/images/pca_load.png)
+
 From these four PC's , we can see that primarily variance in duration (in seconds), tempo, and popularity is being accounted for. Tempo and duration also happen to be key factors in calculating danceability, so this is alright. Interestingly enough, PC2 and PC3 seem to hold the information on the same features, but inverted. This will be important for the K-Means model.
 
 Next we can test to see how many clusters are optimal for the K-Means model using the elbow method as well as sihouette score.
@@ -77,3 +81,101 @@ Here we see four well-represented clusters using only 2 of the 4 PC's. While thi
 This plot shows us that the two central clusters are acturally layered on each other. As these clusters have shown, there are several different groups existing within my date based off tempo, duration, and popularity alone. With these findings it is safe to say that my music is sufficiently different from the top tracks on Spotify and is indeed subcultural.
 
 #### Energetic
+In checking the distribution for track energy, I observed that my tracks are more energetic, but only slightly.
+
+![](/images/bc-energy_dist.png)
+
+To better understand this distribution, I should check if this feature is correlated with any other variable. Another variable being linked to energy could be used as an additional feature to help us gauge overall energy.
+
+![](/images/bs-corr.png)
+
+So here we see that acousticness is negatively correlated with energy, meaning that as acousticness goes down, energy goes up! So a music library with less acoustic songs will generally be more energetic. However after visualizing, the relationship between energy and acousticness didn't reveal much other than I had slightly less acoustic tracks, but nothing to write home about. So I moved on to loudness and energy, which had the strongest correlation.
+
+
+![](/images/bc-loud_en_scatter.png)
+
+Both datasets seemed to follow a somewhat linear relationship that seemed like a solid candidate for linear regression. This was useful because now I could predict who's music would be more energetic as tracks got louder. One thing to look out for was the smaller group that runs beneath the main cluster for my tracks. This group seems to follow the same increasing relationship, but for quiet tracks that are high energy (a group that doesn't exist in the top spotify tracks). After understanding the statistics of both groups, the following models were produced:
+
+![](/images/bs-poly_reg.png)
+A polynomial regression improved performance for modeling my tracks, but a linear model seemed to work best for the top spotify tracks. While it seems like my tracks could be predicted to be more energetic, the models performed rather poorly. Thus, it would be hard to say which group would come out on top with complete confidence. So in order to answer this question, we needed to look at it from a different angle, namely enthusiasm. Enthusiasm is a key component to energy in brand coolness, along with vigor and raw energy. To measure enthusiasm and vigor, I would go on to scrap lyrics off of Genius.com and analyze sentiment using VADER to study polarity scores present within my music. How I was able to integrate Spotify and Genius to get song lyrics is showcased [here!](https://github.com/sourwurm/Brand-Coolness-with-Spotify/blob/master/Lyric%20Scraping.ipynb)
+
+A few regular expressions later and now we were ready to analyze lyrics. VADER is a lexicon used to analyze common speech observed on social media sites such as facebook and twitter. A great strength of this method is how sensitive this lexicon is to the context in which words appear in, so I thought it perfect for analyzing lyrics as well. Sentiment analysis returns several different scores for negative, neutral, positive, and compound sentiment. The first three scores (neg, neu, and pos) contain values denoting the proportion of words in the document that reflect negative, neutral, and positive sentiment. Compound score is an aggregated value between -1 and 1 that denotes the overall sentiment of the document (in this case, lyrics).
+
+For example, ["Boasty" by Wiley](https://www.youtube.com/watch?v=huaE85-V8u4) scores a 0.97 compound score, classifying it as overwhelmingly positive. While it's an upbeat song, it isn't necessarily talking about sunny days and picnics. Instead, it is focused on confidence, success, and just being proud of your accomplishments! Still, VADER was able to detect this and classify the song accordingly. Another song such as ["Deja Vu" by Dave Rodgers](https://www.youtube.com/watch?v=wOEdpBUky5E) scores a -0.63 compound score. This classifies it as moderately negative. Similar to "Boasty", this song isn't necessarily negative in the sense that it is sad or angry. Instead, "Deja Vu" describes an individual facing themes of mystery and conflict, which VADER detects and grades perfectly. Back to my songs!
+
+![](/images/bc-comp_score_dist.png)
+
+This plot shows that my scores tend to be either extremely positive or extremely negative in sentiment. These scores confirm that my music tends to be enthusiastic, as sentiment was highly polarized, containing very little netutral tracks. To confirm compound scores relationship with energy, I checked for correlation. The following plot showcases this relationship and uses DBSCAN to identify the specific groups that exist within this relationship.
+
+![](/images/bc-dbscan_en_comp.png)
+
+From this we could see that energetic music seems to cluster around very positive and very negative sentiment more than anywhere else. Such an implication confirms the notion that my music is enthusiastic, and that enthusiastic music can be associated with energy. All of this combined proves my music is energetic, making my brand cooler!
+
+#### Rebellious and High-Status
+Now that we had lyric data, we had a solid way of testing for rebelliou and high-status themes in music. Wikipedia states that rebellions have sprung as a result of ["Political Violence, Class Struggle, State Autonomy, and Societal Values"](https://en.wikipedia.org/wiki/Rebellion). So we operationalized rebellious themes as ideas surrounding change, conflict, and leaders. High-Status is conceptualized as something associated with social class prestige, sophistication, and esteem. Almost perfect opposites! But this gives us a great intuition to how brand coolness develops. The coolest brands such as [Nike](https://www.businessinsider.com/nike-has-defined-cool-for-50-years-here-are-the-greatest-hits-2015-12) have been at the forefront of coolness for years, partially because they were able to find balance between being rebellious, and high status. Any brand (or individual) that can embody this model is without a doubt: cool.
+
+To understand if these themes existed within my music, I used Latent Dirichlet Allocation to model topics. LDA is an NLP method that generates a specified number of topics and works backwards to figure out the probability that a given word belongs to a topic, and the probability that a given topic is found in a document. The model repeats this process in a bayesian manner until it converges, producing topics that describe the text within the entire data set. For the model to work properly, stard text preprocessing was performed. The resulting model produced the follwoing topics:
+
+
+- Topic 0: life know got day youll dont young proud try world
+- Topic 1: dont know night going gonna got cause right freedom good
+- Topic 2: know tell aint said ride got didnt brothers girl house
+- Topic 3: line man yeah youve woman body got money boy theres
+- Topic 4: really got dont love come pieces know whoa want baby
+- Topic 5: time mind sick feel thing come eyes fall waiting black
+- Topic 6: yeah rain think fun away way feel far hollywood cause
+- Topic 7: make time wanna gotta dont want got love cause stop
+- Topic 8: love dont know baby want heart little need make wanna
+- Topic 9: way outside away burn gonna stay say got ll change
+
+The topics were distributed within the dataset as follows:
+![](/images/bc-topic_dist.png)
+
+###### Topic 0: life day dont young try proud world
+This topic is pretty abstract but it seems to encompass generally positive themes of pride, youth, and life. Though the presence of "dont" could change the meaning depending on the context it appears in. The focus focus of this topic could potentially be associated with esteem/status, but many other things as well.
+
+###### Topic 1: dont know going gonna cause right freedom good
+In this set of words, we find strong themes of both action words, as well as descriptors. Going, gonna, and and cause all imply an imminent action. Right, freedom, and good could refer to many things, but under this context, we can potentially say this topic is about doing the right thing, what is good, or what will bring freedom. However, the presence of "dont" and "know" could mean that there is some sort of conflict in deciding if what is being done is right. This topic could possibly be associated with revolution/conflict.
+
+###### Topic 8: love dont know baby want heart little need make wanna
+Topic 8 seems to cover themes surrounding love (love, heart) and desire (want, wanna, need). I believe in this context, baby refers to the use seen in relationships, rather than a literal baby.
+
+##### Topic 9: way outside away burn gonna stay change
+Here we see some words that hint towards rebellious themes such as burn and change, but this is still rather vague. More than anything, words such as way, away, outside, and stay indicate some form of changing location. Paired with that, burn, gonna and change could refer to leaving something behind in this context, as they are all actionable words.
+
+
+#### Overall Topic Interpretation
+Topic 1 and Topic 9 both seem to share themes surrounding change, the right cause, and leaving things behind. Combined, these topics make up about 23% of my tracks. The themes present in these topics are suggestive of rebellion and fighting for what is right. Topic 0 and Topic 8 seemed to be more general positive themes that aren't necessarily related to rebellion or status.
+
+So it seems like rebellious (but not high-status) themes are present within my music. 
+
+## Conclusion
+Overall, we have identified that my music tends to differ from the top tracks on Spotify in several different ways. Not only in the sense that it is subculture, but the amount of anomalies detected indicate that my music taste can be somewhat original (another measure of cool). With all this in mind, we have found that:
+
+#### My brand IS:
+- Subcultural
+- Energetic
+- Rebellious
+- Original
+
+#### My brand IS NOT:
+- Popular
+- High-Status
+
+##### Untested Metrics:
+- Iconic
+- Extraordinary/Useful
+- Authentic
+- Aesthetically Appealing
+
+
+In order to improve my coolness, I should seek to listen to more music that is associated with high status themes. Spotify offers several playlists that encompass [high-society](https://open.spotify.com/playlist/2hjPA4vpHPa1UFphKhi16N?si=hlgvjBwERDmye4ZOStqRzQ), [confidence](https://open.spotify.com/playlist/37i9dQZF1DX4fpCWaHOned?si=gLccAw2JRreOu62OqyuBFg), and even [space-themed classical music](https://open.spotify.com/playlist/37i9dQZF1DX0i61tT0OnnK?si=ezjQQCOhTrS2QPtgi324Ww). These three playlists will help fill the gaps within my music library and hopefull at the end of it all I will come out as a high-status individual, and thus: cooler.
+
+
+BUT if I did all that then I wouldn't be true to my listening pattern, I wouldn't be Dav Corp.. That being said, while I recognize my shortcomings, I ultimately opt to be more authentic in my listening than anything else. If the reader will allow it...... I'd like to award myself for authenticity as well.......:
+
+#### My brand IS (also):
+- Authentic
+
+That's a solid 5/7! As for the other metrics, I believe they aren't really for me to decide. Regardless, I will strive to be iconic, useful, and 
+##### aesthetically appealing. 
