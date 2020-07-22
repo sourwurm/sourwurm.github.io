@@ -66,6 +66,7 @@ Generally speaking, 0.8 explained variance is a good marker to shoot for. Meanin
 From these four PC's , we can see that primarily variance in duration (in seconds), tempo, and popularity is being accounted for. Tempo and duration also happen to be key factors in calculating danceability, so this is alright. Interestingly enough, PC2 and PC3 seem to hold the information on the same features, but inverted. This will be important for the K-Means model.
 
 Next we can test to see how many clusters are optimal for the K-Means model using the elbow method as well as sihouette score.
+
 ![](/images/bc-elbow_meth.png)
 
 The elbow here occurs at 4 clusters.
