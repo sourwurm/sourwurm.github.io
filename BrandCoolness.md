@@ -36,7 +36,7 @@ Warren (2019) identified popularity as being trendy and liked by most people. To
 
 My Tracks peak at the 0 popularity mark which explains why I have trouble finding people who listen to the same music as me! On the bright side, My Tracks seem to cover a good spread of popularity ranges, having decent representation all the way up to the 0.6 mark on the popularity axis.
 
-Of course it should be expected that the Spotify Top Tracks would be comprised of songs with high popularity. Interestingly enough, we can observe a bimodal distribution for Spotify's top track popularity through nodes peaking at both high and low popularity. This is because Spotify calculates popularity based off current Spotify listening activity. Meaning, tracks may have had a high popularity score in their heyday, but have since fallen off. This is exemplified by looking at exactly which songs fall under this category.
+Of course it should be expected that the Spotify Top Tracks would be comprised of songs with high popularity. Interestingly enough, we can observe a bimodal distribution for Spotify's top track popularity through nodes peaking at both high and low popularity. This is because Spotify calculates popularity based on current Spotify listening activity. Meaning, tracks may have had a high popularity score in their heyday, but have since fallen off. This is exemplified by looking at exactly which songs fall under this category.
 
 ![](/images/bc-low_pop_top.png)
 
@@ -51,7 +51,7 @@ Proving this one will require a bit more, so to get a rough idea of differences 
 
 ![](/images/bc-radar.png)
 
-As we saw before, the largest difference seems to be within popularity, followed by instrumentalness and danceability. While the names are somewhat intuitive, instrumentalness reflects how instrumental a song is (more vocals (less instruments) -> lower instrumental score). Danceability is how danceable a song is. This metric is based off tempo, time signature, and other factors. Differences in these specific columns can indicate larger differences that exist within the music libraries at large. Now we can look at the differences in danceability and instrumentalness distributions.
+As we saw before, the largest difference seems to be within popularity, followed by instrumentalness and danceability. While the names are somewhat intuitive, instrumentalness reflects how instrumental a song is (more vocals (less instruments) -> lower instrumental score). Danceability is how danceable a song is. This metric is based on tempo, time signature, and other factors. Differences in these specific columns can indicate larger differences that exist within the music libraries at large. Now we can look at the differences in danceability and instrumentalness distributions.
 
 ![](/images/bc-danceability_dist.png)
 
@@ -81,7 +81,7 @@ The elbow here occurs at 4 clusters.
 
 ![](/images/bc-silhouette.png)
 
-Silhouette score is a rating method that shows how well the clusters are seperated at each value of k, the higher the point the better the fit. This plot is in agreement with the previous plot, but also suggests three clusters might be a possibility. After some tinkering, it turns out that 4 is the optimal number of clusters for K-Means. The clusters looked like this:
+Silhouette score is a rating method that shows how well the clusters are separated at each value of k, the higher the point the better the fit. This plot is in agreement with the previous plot, but also suggests three clusters might be a possibility. After some tinkering, it turns out that 4 is the optimal number of clusters for K-Means. The clusters looked like this:
 
 ![](/images/bc-kmeans.png)
 
@@ -89,7 +89,7 @@ Here we see four well-represented clusters using only 2 of the 4 PC's. While thi
 
 ![](/images/bc-3d_kmeans.png)
 
-This plot shows us that the two central clusters are acturally layered on top of each other. As these clusters have shown, there are several different groups existing within my data based off tempo, duration, and popularity alone. With these findings it is safe to say that my music is sufficiently different from the top tracks on Spotify and is indeed subcultural. These findings also support the notion that my music taste is different enough from the population to suggest it is also original, but still more evidence is required.
+This plot shows us that the two central clusters are acturally layered on top of each other. As these clusters have shown, there are several different groups existing within my data based on tempo, duration, and popularity alone. With these findings it is safe to say that my music is sufficiently different from the top tracks on Spotify and is indeed subcultural. These findings also support the notion that my music taste is different enough from the population to suggest it is also original, but still more evidence is required.
 
 #### Energetic
 In checking the distribution for track energy, I observed that my tracks are more energetic, but only slightly.
