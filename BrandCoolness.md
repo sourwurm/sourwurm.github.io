@@ -1,5 +1,5 @@
 # Brand Coolness Using Spotify and Song Lyrics
-[Full Code and Analyis Here](https://github.com/sourwurm/Brand-Coolness-with-Spotify)
+[Full Code and Analysis Here](https://github.com/sourwurm/Brand-Coolness-with-Spotify)
 
 I remember being a kid and thinking it was pretty funny that the law could refer to corporations as "persons". I recently had that thought again and it made me think, if a corporation can be a person, then why can't a person be a corporation? Needless to say I have since relinquished my humanity.
 
