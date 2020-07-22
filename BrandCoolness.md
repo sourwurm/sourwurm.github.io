@@ -67,9 +67,11 @@ From these four PC's , we can see that primarily variance in duration (in second
 
 Next we can test to see how many clusters are optimal for the K-Means model using the elbow method as well as sihouette score.
 ![](/images/bc-elbow_meth.png)
+
 The elbow here occurs at 4 clusters.
 
 ![](/images/bc-silhouette.png)
+
 This plot is in agreement with the previous plot, but also suggests three clusters might be a possibility. After some tinkering, it turns out that 4 is the optimal number of clusters for K-Means. The clusters looked like this:
 
 ![](/images/bc-kmeans.png)
@@ -97,6 +99,7 @@ So here we see that acousticness is negatively correlated with energy, meaning t
 Both datasets seemed to follow a somewhat linear relationship that seemed like a solid candidate for linear regression. This was useful because now I could predict who's music would be more energetic as tracks got louder. One thing to look out for was the smaller group that runs beneath the main cluster for my tracks. This group seems to follow the same increasing relationship, but for quiet tracks that are high energy (a group that doesn't exist in the top spotify tracks). After understanding the statistics of both groups, the following models were produced:
 
 ![](/images/bc-poly_reg.png)
+
 A polynomial regression improved performance for modeling my tracks, but a linear model seemed to work best for the top spotify tracks. While it seems like my tracks could be predicted to be more energetic, the models performed rather poorly. Thus, it would be hard to say which group would come out on top with complete confidence. So in order to answer this question, we needed to look at it from a different angle, namely enthusiasm. Enthusiasm is a key component to energy in brand coolness, along with vigor and raw energy. To measure enthusiasm and vigor, I would go on to scrap lyrics off of Genius.com and analyze sentiment using VADER to study polarity scores present within my music. How I was able to integrate Spotify and Genius to get song lyrics is showcased [here!](https://github.com/sourwurm/Brand-Coolness-with-Spotify/blob/master/Lyric%20Scraping.ipynb)
 
 A few regular expressions later and now we were ready to analyze lyrics. VADER is a lexicon used to analyze common speech observed on social media sites such as facebook and twitter. A great strength of this method is how sensitive this lexicon is to the context in which words appear in, so I thought it perfect for analyzing lyrics as well. Sentiment analysis returns several different scores for negative, neutral, positive, and compound sentiment. The first three scores (neg, neu, and pos) contain values denoting the proportion of words in the document that reflect negative, neutral, and positive sentiment. Compound score is an aggregated value between -1 and 1 that denotes the overall sentiment of the document (in this case, lyrics).
@@ -131,13 +134,13 @@ To understand if these themes existed within my music, I used Latent Dirichlet A
 The topics were distributed within the dataset as follows:
 ![](/images/bc-topic_dist.png)
 
-###### Topic 0: life day dont young try proud world
+##### Topic 0: life day dont young try proud world
 This topic is pretty abstract but it seems to encompass generally positive themes of pride, youth, and life. Though the presence of "dont" could change the meaning depending on the context it appears in. The focus focus of this topic could potentially be associated with esteem/status, but many other things as well.
 
-###### Topic 1: dont know going gonna cause right freedom good
+##### Topic 1: dont know going gonna cause right freedom good
 In this set of words, we find strong themes of both action words, as well as descriptors. Going, gonna, and and cause all imply an imminent action. Right, freedom, and good could refer to many things, but under this context, we can potentially say this topic is about doing the right thing, what is good, or what will bring freedom. However, the presence of "dont" and "know" could mean that there is some sort of conflict in deciding if what is being done is right. This topic could possibly be associated with revolution/conflict.
 
-###### Topic 8: love dont know baby want heart little need make wanna
+##### Topic 8: love dont know baby want heart little need make wanna
 Topic 8 seems to cover themes surrounding love (love, heart) and desire (want, wanna, need). I believe in this context, baby refers to the use seen in relationships, rather than a literal baby.
 
 ##### Topic 9: way outside away burn gonna stay change
@@ -178,4 +181,4 @@ BUT if I did all that then I wouldn't be true to my listening pattern, I wouldn'
 - Authentic
 
 That's a solid 5/7! As for the other metrics, I believe they aren't really for me to decide. Regardless, I will strive to be iconic, useful, and 
-##### aesthetically appealing. 
+#### aesthetically appealing. 
