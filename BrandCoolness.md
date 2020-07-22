@@ -55,7 +55,7 @@ As we saw before, the largest difference seems to be within popularity, followed
 
 ![](/images/bc-danceability_dist.png)
 
-The two distributions are strikingly different and it seems like my music seems to encompass a wider variety of music. Most notably, top tracks seem to be poorly represented under the low danceability score region. This fact is supporting evidence that my music could potentially be more subcultural.
+The two distributions are strikingly different and it seems like my music encompasses a wider variety of music. Most notably, top tracks seem to be poorly represented under the low danceability score region. This fact is supporting evidence that my music could potentially be more subcultural.
 
 Now to check instrumentalness.
 
