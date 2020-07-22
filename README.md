@@ -1,5 +1,5 @@
 # David Lopez | University of California, San Diego
-[LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/)
+[LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 
 ## [Brand Coolness Using Spotify and Song Lyrics](/BrandCoolness.md)
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. In order to evaluate myself, I have chosen to treat myself as a brand, using my spotify music data as performance metrics to be evaluated by a set criteria. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
