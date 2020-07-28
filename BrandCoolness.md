@@ -65,11 +65,11 @@ To clarify, Spotify specifies that instrumental scores over 0.5 denote songs wit
 
 Since I'd like to include as many features as possible, it would benefit me to use Principal Component Analysis to reduce dimensionality. First we must identify the optimal number of PC's by measuring explained variance by the number of PC's used.
 
-![](bc-exp_var.png)
+![](/images/bc-exp_var.png)
 
 Generally speaking, 80% explained variance is a good marker to shoot for, meaning I would choose six Principle Components. But after some tinkering I found that not much information was being stored within the last two PC's. For that reason, I will only be using four PC's, which cover nearly 65% of explained variance within the data. To get a better idea of what's being accounted for, we can check the loadings for each component.
 
-![](/images/pca_load.png)
+![](/images/bc-pca_load.png)
 
 From these four PC's, we can see that primarily variance in duration (in seconds), tempo, and popularity is being accounted for. Tempo and duration also happen to be key factors in calculating danceability, so this is alright. Interestingly enough, PC2 and PC3 seem to hold information on the same features, but inverted. This will be important for the K-Means model.
 
