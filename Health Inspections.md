@@ -63,14 +63,14 @@ are most common
 
 ![](/images/hi/hi-top_viol.png)
 
-#### Top 3 Repeat Violations are Also the Top 3 Violations Most Often Corrected During Inspections
+### Top 3 Repeat Violations are Also the Top 3 Violations Most Often Corrected During Inspections
 ##### 4-601.11(A) 
 - Food contact surfaces, non-food contact services, or utensils are dirty.
 
-###### 3-501.17 
+##### 3-501.17 
 - Improper date markings on potentially hazardous foods.
 
-###### 3-501.16(A)(2)(B) 
+##### 3-501.16(A)(2)(B) 
 - Improper hot and cold food holding due to equipment not being capable of maintaining proper food temp.
 
 Given this trend, it is safe to identify these critical violations as very common. As shown before, there is an inconsistent approach towards scoring, where a restaurant 
