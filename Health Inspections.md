@@ -45,7 +45,7 @@ restaurant getting a score they don't deserve can be dangerous for consumers, so
 
 ![](/images/hi/hi-bp_non_viol.png)
 
-![](/images/hi/hi-bp-score.png)
+  ![](/images/hi/hi-bp-score.png)
 
 Judging by the interquartile ranges, it seems like most inspections with high critical violations seem to score anywhere from a 90-94, with 10-13 critical violations and
 potentially 10-15 non-critical violations. Now, at first glance, that seems like too high of a score for restaurants with so many violations, critical or not. Of course,
@@ -72,11 +72,6 @@ are most common
 
 ##### 3-501.16(A)(2)(B) 
 - Improper hot and cold food holding due to equipment not being capable of maintaining proper food temp.
-
-Given this trend, it is safe to identify these critical violations as very common. As shown before, there is an inconsistent approach towards scoring, where a restaurant 
-with ~20 critical violations can expect a score anywhere from 80-90. Given the severity of of these common violations, more efforts should be taken to reduce the overlap 
-between repeated and corrected violations through more strict scoring policies. These new policies should work to provide consistent and accurate scores that punish 
-consistent repeated violations.
 
 Given this trend, it is safe to identify these critical violations as very common. As shown before, there is an inconsistent approach towards scoring, where a restaurant 
 with ~20 critical violations can expect a score anywhere from 80-90. Given the severity of of these common violations, more efforts should be taken to reduce the overlap 
