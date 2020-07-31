@@ -1,10 +1,10 @@
 # David Lopez | University of California, San Diego
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 
-## [Brand Coolness Using Spotify and Song Lyrics](/BrandCoolness.md)
+## [Brand Coolness Using Spotify and Song Lyrics](/BrandCoolness.md) *(15 min. read)*
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. In order to evaluate myself, I have chosen to treat myself as a brand, using my spotify music data as performance metrics to be evaluated by a set criteria. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
 
-## [Health Inspection Score Inflation](/HealthInspections.md)
+## [Health Inspection Score Inflation](/HealthInspections.md) *(10 min. read)*
 Going to a restaurant shouldn't result in getting you sick. In examining the Wake County health department's health inspections, I found that as critical health violations increased..... so did health inspection ratings. Not only that, but the common violations are ALSO the ones most often repeated. Violations such as improper food handling, unclean surfaces, and unsafe heating/cooling are all happening on a consistent basis. By looking at trends within the inspectors theselves, I found that some individuals are more likely than others to inflate scores, but this trend is present regardless of experience level. I present Wake County with suggestions to increase objectivity and integrity in ratings in order to provide accurate ratings to underperforming restaurants.
 
 ## [Dubai's Public Transit Network](https://github.com/sourwurm/sourwurm.github.io/tree/master/Dubai-Public-Transit-Network-master)
