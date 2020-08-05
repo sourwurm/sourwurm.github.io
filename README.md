@@ -12,3 +12,8 @@ In this notebook I analyze Dubai's vulnerability to both direct and indirect dam
 
 ## [Content Based Recommender](https://github.com/sourwurm/sourwurm.github.io/tree/master/Content_Based_Recommender-master)
 In my free time, I like to watch a bit of anime, but with so many shows to choose from it can be hard to pick something to watch. Here, I use a content-based approach towards building an anime recommender. Relevant metrics included a long list of genres, member ratings, and episode length. Once the model was built, I found that my model performed very close to that of the original database that the data was obtained from, despite not having access to user-specific data. 
+
+## [Meme Generator](https://github.com/sourwurm/Meme-Generator)
+This is an older project, in which I built a couple of functions that allow the user to distort their images and add text on top of them. These methods aimed to replicate
+the "deep fried meme" look that was popular at the time. I implemented functionality for users to add their own captions in different types of fonts to any of their images so
+it's easy and fun to customize. These functions also serve as a great streamlined approach to just add text to images as well, free of any deep frying! It's something fun to play around with, and you can even save your favorite creations!
