@@ -1,6 +1,10 @@
 # David Lopez | University of California, San Diego
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 
+## [Email Daily-Digest Article Summarizer](https://github.com/sourwurm/EmailDigestSummarizer) *(5 min. read)*
+Every few days, I receive a daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
+I created this script in order to avoid having to sift through these articles to figure out which are worth reading fully and which might actually contain useful or interesting information. The script will return 7-sentence summaries of every article linked in the digest, along with author, title, and a link to the article of course. This summarization aims to provide a quick "tl;dr" for when you think an articles title seems promising, but you just wanna make sure. Additionally, the resulting csv opens some cool doors in case anyone is curious to run some NLP on any of their recommended articles.
+
 ## [Brand Coolness Using Spotify and Song Lyrics](/BrandCoolness.md) *(15 min. read)*
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. As a side goal, I sought to develop a framework that could establish a methodology for a web app that will allow users to determine their own coolness based off of Spotify data. In order to evaluate myself, I have chosen to treat myself as a brand by using audio features as performance metrics to be evaluated. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
 
