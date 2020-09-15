@@ -1,4 +1,4 @@
-# Brand Coolness Using Spotify and Song Lyrics
+# Brand Perception Using Spotify and NLP
 [Full Code and Analysis Here](https://github.com/sourwurm/Brand-Coolness-with-Spotify)
 
 I remember being a kid and thinking it was pretty funny that the law could refer to corporations as "persons". I recently had that thought again and it made me think, if a corporation can be a person, then why can't a person be a corporation? Shortly thereafter I relinquished my humanity.
