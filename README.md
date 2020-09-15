@@ -1,14 +1,14 @@
-# David Lopez | University of California, San Diego
+# Contact
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
-
-## [My version of a lazy sunday](https://github.com/sourwurm/MandatoryTitanic/blob/master/mandatory_titanic.ipynb) *(5-10 min. read)*
+# Projects
+## [My version of a lazy sunday](https://github.com/sourwurm/MandatoryTitanic/blob/master/mandatory_titanic.ipynb) *(5-10 min.)*
 I've been pretty busy over the summer with my work at the UC San Diego Department of Cognitive Science and partcipating in the Facebook Data Challenge. On top of that I've been doing a lot of self-studying to try and pick up a few new skills that I can apply to my work. I recently ran into some free time and I was thinking about how funny/infamous the Titanic dataset is in pockets of the Data Science community. Next thing I knew: I had predicted which passengers aboard the Titanic will survive and which will perish. Definitely lacks impact, but this one was just for fun while I finish up projects in my professional work!
 
-## [Email Daily Digest Article Summarizer](https://github.com/sourwurm/EmailDigestSummarizer) *(5 min. read)*
+## [Email Daily Digest Article Summarizer](https://github.com/sourwurm/EmailDigestSummarizer) *(5 min.)*
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
 I created this script in order to make the sifting process more efficient by summarizing every article in the email. This makes it pretty to understand which articles you might actually want to read, and which you can pass on. I made this with the intent of having it be the first thing people open when they start their day, so the info is presented right in their web browser, along with links to LinkedIn, Gmail, and even Reddit. 
 
-## [Brand Perception Using Spotify and NLP](/BrandCoolness.md) *(15 min. read)*
+## [Brand Perception Using Spotify and NLP](/BrandCoolness.md) *(15 min.)*
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. As a side goal, I sought to develop a framework that could establish a methodology for a web app that will allow users to determine their own coolness based off of Spotify data. In order to evaluate myself, I have chosen to treat myself as a brand by using audio features as performance metrics to be evaluated. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
 
 ## [Health Inspection Score Inflation](/HealthInspections.md) *(10 min. read)*
