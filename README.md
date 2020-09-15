@@ -1,4 +1,4 @@
-# Contact
+### Contact
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 # Projects
 ## [My version of a lazy sunday](https://github.com/sourwurm/MandatoryTitanic/blob/master/mandatory_titanic.ipynb) *(5-10 min.)*
