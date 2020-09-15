@@ -1,6 +1,9 @@
 # David Lopez | University of California, San Diego
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 
+## [My version of a lazy sunday](https://github.com/sourwurm/MandatoryTitanic/blob/master/mandatory_titanic.ipynb) *(5-10 min. read)*
+I've been pretty busy over the summer with my work at the UC San Diego Department of Cognitive Science and partcipating in the Facebook Data Challenge. On top of that I've been doing a lot of self-studying to try and pick up a few new skills that I can apply to my work. I recently ran into some free time and I was thinking about how funny/infamous the Titanic dataset is in pockets of the Data Science community. Next thing I knew: I had predicted which passengers aboard the Titanic will survive and which will perish. Definitely lacks impact, but this one was just for fun while I finish up projects in my professional work!
+
 ## [Email Daily Digest Article Summarizer](https://github.com/sourwurm/EmailDigestSummarizer) *(5 min. read)*
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
 I created this script in order to make the sifting process more efficient by summarizing every article in the email. This makes it pretty to understand which articles you might actually want to read, and which you can pass on. I made this with the intent of having it be the first thing people open when they start their day, so the info is presented right in their web browser, along with links to LinkedIn, Gmail, and even Reddit. 
