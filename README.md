@@ -1,7 +1,7 @@
 ### Contact
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 # Projects
-## [Email Daily Digest Article Summarizer](https://github.com/sourwurm/EmailDigestSummarizer) *(5 min.)*
+## [Email Daily Digest Article Summarizer](https://github.com/sourwurm/EmailNewsletterSummarizer) *(5 min.)*
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
 I created this script in order to make the sifting process more efficient by summarizing every article in the email. This makes it pretty to understand which articles you might actually want to read, and which you can pass on. I made this with the intent of having it be the first thing people open when they start their day, so the info is presented right in their web browser, along with links to LinkedIn, Gmail, and even Reddit. 
 
