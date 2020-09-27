@@ -22,7 +22,7 @@ To start off, I wanted to get a quick snapshot of the inspection score distribut
 This distribution seems to be rather left-skewed, where very few inspections result in a score below a 90 (A-). Now to get a better idea of the average inspection, we should
 look at the relationship between the last day of inspection, and the inspection score given.
 
-![](/imaged/hi/hi-avg_last_score.png)
+![](/images/hi/hi-avg_last_score.png)
 
 This is showing that restaurants tend to be visited in intervals of 100-400 days since their last inspection. Low-risk restaurants have looser inspection frequency requirement,
 this also explains why the inspections on the higher end also have slightly higher average scores (though uncommon). Another way we could measure inspection effectiveness is
