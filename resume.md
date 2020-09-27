@@ -1,2 +1,0 @@
-## Résumé
-![](/Resume.pdf)
