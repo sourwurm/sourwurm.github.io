@@ -1,3 +1,4 @@
+### [Resume](/resume.md)
 ### Contact
 [LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
 # Projects
