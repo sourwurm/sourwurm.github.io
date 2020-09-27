@@ -1,6 +1,6 @@
 ### <a href="/Resume.pdf" target="_blank">Résumé</a>
 ### Contact
-[LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | [GitHub](https://github.com/sourwurm?tab=repositories) | [E-Mail](mailto:david.eric.lopez@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/david-lopez-794790199/) | Email: david.eric.lopez@gmail.com | Cell: (510) 798-4366
 # Projects
 ## [Email Newsletter Summarizer](https://github.com/sourwurm/EmailNewsletterSummarizer) *(5 min.)*
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
