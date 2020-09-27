@@ -1,1 +1,2 @@
-![]('Resume.pdf')
+## Résumé
+![](/Resume.pdf)
