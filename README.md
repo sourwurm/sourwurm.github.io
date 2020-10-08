@@ -6,7 +6,7 @@
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
 I created this script in order to make the sifting process more efficient by summarizing every article in the email. This makes it pretty to understand which articles you might actually want to read, and which you can pass on. I made this with the intent of having it be the first thing people open when they start their day, so the info is presented right in their web browser, along with links to LinkedIn, Gmail, and even Reddit. 
 
-## <a href="/BrandCoolness.md" target="_blank">Brand Perception Using Spotify and NLP</a> *(15 min.)*
+## [Brand Perception Using Spotify and NLP](/BrandCoolness.md) *(15 min.)*
 Here I collect data and identify metrics that can be used to identify "coolness" within a brand based off spotify audio features, and song lyric data. As a side goal, I sought to develop a framework that could establish a methodology for a web app that will allow users to determine their own coolness based off of Spotify data. In order to evaluate myself, I have chosen to treat myself as a brand by using audio features as performance metrics to be evaluated. I was able to identify 5 traits that suggested my "brand" is perceived as cool, 2 that showed I was un-cool, and 3 that are to be determined. To improve my brand, I should listen to more music that is associated with high status, containing themes that encompass money, status, and iconicity. Additionally, I should listen to more popular music.
 
 ## <a href="/HealthInspections.md" target="_blank">Health Inspection Score Inflation</a> *(10 min.)*
