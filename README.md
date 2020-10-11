@@ -2,6 +2,9 @@
 ### Contact
 <a href="https://www.linkedin.com/in/david-lopez-794790199/" target="_blank">LinkedIn</a> | Email: david.eric.lopez@gmail.com | Cell: (510) 798-4366
 # Projects
+## <a href = "https://github.com/sourwurm/Lab/tree/main/i-complexity" target = "_blank">Linguistics Lab | I-Complexity</a>
+This repository contains a set of scripts and functions that were written for the i-complexity project of the Brain Cognition and Language Lab at the University of California, San Diego. These scripts allow for the manipulation of data from Unimorph that contain word forms and their corresponding dimensions and cases. The goal was to allow for easy manipulation when changing the in-column sort order of word dimensional features.
+
 ## <a href="https://github.com/sourwurm/EmailNewsletterSummarizer" target="_blank">Email Newsletter Summarizer</a> *(5 min.)*
 Every few days, I receive a Daily Digest from Medium.com containing suggested articles. While I enjoy this feature, many articles come with titles reeking of click-bait.
 I created this script in order to make the sifting process more efficient by summarizing every article in the email. This makes it pretty to understand which articles you might actually want to read, and which you can pass on. I made this with the intent of having it be the first thing people open when they start their day, so the info is presented right in their web browser, along with links to LinkedIn, Gmail, and even Reddit. 
