@@ -1,4 +1,4 @@
-### <a href="/CV.pdf" target="_blank">CV</a>
+
 ### Contact
 <a href="https://www.linkedin.com/in/david-lopez-794790199/" target="_blank">LinkedIn</a> | Email: david.eric.lopez@gmail.com | Cell: (510) 798-4366
 # Projects
